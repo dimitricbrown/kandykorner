@@ -1,4 +1,5 @@
 import { LocationList } from "./locations/LocationList"
+import { ProductList } from "./products/ProductList"
 
 export const KandyKorner = () => {
 
@@ -8,6 +9,9 @@ export const KandyKorner = () => {
 
             <h2>Locations</h2>
             <LocationList />
+
+            <h2>Products</h2>
+            <ProductList />
         </>
     )
 }
